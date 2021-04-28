@@ -1,0 +1,38 @@
+.box {
+  display: inline-block;
+  height: 400px;
+  width: 550px;
+
+  border-radius: 30px;
+  color: white;
+  background-color: rgb(209, 172, 243);
+}
+.inputData {
+  display: block;
+
+  padding: 2px;
+}
+.inputField {
+  border-radius: 10px;
+  display: block;
+  position: relative;
+  left: 30%;
+  height: 50px;
+}
+.info {
+  display: block;
+
+  padding: 2px;
+}
+.location {
+}
+
+.inputField:hover {
+  animation: ritesh 2s;
+}
+
+@keyframes ritesh {
+  20% {
+    transform: rotate(10deg);
+  }
+}
